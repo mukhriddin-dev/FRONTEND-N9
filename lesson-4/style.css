@@ -1,0 +1,23 @@
+
+h1 {
+  color: red;
+  background-color: aqua;
+  width: 400px;
+  height: 400px;
+}
+
+small {
+  color: red;
+  background-color: yellow;
+}
+
+p {
+  color: aqua;
+  background-color: tomato;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+}
+
