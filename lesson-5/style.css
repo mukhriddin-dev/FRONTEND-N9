@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: gray;
+}
+
+header{
+    background:aqua;
+    padding: 20px;
+}
+
+main{
+    background-color: yellowgreen;
+}
+
+#intro{
+    height: 200px;
+    background-color:deeppink;
+}
+
+.products{
+    background-color: yellow;
+    height: 900px;
+}
+
+.banner{
+    background-color: salmon;
+    height: 200px;
+}
+
+h4{
+    font-size: 60px;
+   
+}
+
+
+.footer{
+    background: grey;
+    color:#fff;
+    height: 80px;
+}

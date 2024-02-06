@@ -13,6 +13,7 @@
 - text-decoration:  oveline | underline | line-through 
 - text-transform: uppercase | lowercase | capitalize
 - text-indent: px , rem , % , vw , units
+- text-shadow: x , y , spread ,  opacity;
 
 
 - ### font
@@ -43,6 +44,14 @@
 
 - width: kengligi 
 - height: balandligi
+
+- max-width: eng ko'p bilan kengligi
+- min-width: eng kamida kengligi
+
+- max-height: balandligi
+- min-height: balandligi
+
+
 
 
 
@@ -116,7 +125,7 @@ selector {
 
 
 #### Box-sizing
-- box-sizing: border-box , content-box, clear-both...
+- box-sizing: border-box , content-box
 
 #### Universl class / CSS boilerplate
 
@@ -132,8 +141,9 @@ selector {
 ##### extra properties
 
 - border-radius
+- box-shadow:+- x , +-y , blur , opacity , spread 
 
-
+![alt text](image-1.png)
 
 
 
