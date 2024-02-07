@@ -6,3 +6,18 @@
 - Fonts + (global)
 - Float 
 - Flex box
+
+- Flex box : games 
+- https://flexboxfroggy.com
+- https://codingfantasy.com/games/flexboxadventure/play
+
+
+```
+        display: flex;
+        justify-content:space-around;
+        align-items:center;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+```
+
+![alt text](image.png)
