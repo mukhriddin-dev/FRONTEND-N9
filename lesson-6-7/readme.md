@@ -4,8 +4,8 @@
 - Layout ? +
 - Documentation +
 - Fonts + (global)
-- Float 
-- Flex box
+- Float +
+- Flex box + ( Flex containe )
 
 - Flex box : games 
 - https://flexboxfroggy.com
