@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+header{
+background-color: #ffffff8d;
+width: 100%;
+position: fixed;
+top:0;
+z-index: 99999999;
+backdrop-filter: blur(10px);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+nav .logo{
+    font-size: 34px;
+    font-weight: bold;
+    text-decoration: none;
+    color:#000000;
+}
+
+.list{
+display: flex;
+justify-content: space-between;
+column-gap: 50px;
+list-style-type: none;
+}
+
+.item {
+    text-transform: uppercase;
+}
+
+.item a{
+    color:#000000;
+    text-decoration: none;
+}
+
+.item a:hover{
+    text-decoration: underline;
+}
+
+
+
+#intro{
+    background-color: greenyellow;
+    background-image: url("./images/registon.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position: top;
+    height: 130vh;
+    background-attachment:fixed;
+}
+
+
+#about{
+    background-color: greenyellow;
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position: top;
+    height: 100vh;
+    
+}
+
+#service{
+    background-color: greenyellow;
+    background-repeat: no-repeat;
+    background-image: url("https://picsum.photos/id/234/1200/970");
+    background-size:100%;
+    background-position: top;
+    height: 100vh;
+    background-attachment:fixed;
+}
+
+
+#team{
+    background-color: greenyellow;
+    background-repeat: no-repeat;
+    background-image: url("https://picsum.photos/id/134/1200/970");
+    background-size:100%;
+    background-position: top;
+    height: 100vh;
+    background-attachment:fixed;
+}
+
+/* viewport  height*/

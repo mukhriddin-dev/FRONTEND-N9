@@ -63,7 +63,6 @@
 - background-size: cover , contain , (x:%|px|rem , y: %| px | rem);
 - background-repeat: no-repet , repeat-x , repeat-y ,  repeat;
 - background-attachment: fixed , scroll , ... etc
-
 - background: url("source.png") , cover , no-repet; color
 
 - ### CSS - selectors
