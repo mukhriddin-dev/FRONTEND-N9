@@ -14,3 +14,12 @@ object-fit: cover | fill | auto
 object-position: cover
 object-size: cover
 
+- ### Flex item 
+
+- order
+- grow
+- shrink
+- flex 
+
+
+

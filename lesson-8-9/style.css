@@ -22,6 +22,7 @@ position: fixed;
 top:0;
 z-index: 99999999;
 backdrop-filter: blur(10px);
+border-bottom: 1px solid silver;
 }
 
 nav{
@@ -36,6 +37,7 @@ nav .logo{
     font-weight: bold;
     text-decoration: none;
     color:#000000;
+    
 }
 
 .list{
@@ -61,8 +63,8 @@ list-style-type: none;
 
 
 #intro{
-    background-color: greenyellow;
-    background-image: url("./images/registon.jpg");
+    background-color: rgb(255, 255, 255);
+    /* background-image: url("./images/registon.jpg"); */
     background-repeat: no-repeat;
     background-size:100%;
     background-position: top;
@@ -102,3 +104,70 @@ list-style-type: none;
 }
 
 /* viewport  height*/
+
+
+.wrapper{
+    padding: 100px;
+}
+
+.photo{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    object-position:0px;
+    border: 2px solid red;
+}
+
+
+.flex-container{
+    background-color:aquamarine;
+    padding: 50px; 
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 30px 10px;
+    flex-wrap: wrap;
+}
+
+.flex-item{
+    width: 130px;
+    height: 130px;
+    border: 2px solid blue;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .flex-item:first-child{
+    background-color: red;
+}
+
+.flex-item:last-child{
+    background-color: green;
+} */
+
+
+
+
+.flex-item:nth-child(1){
+    background-color: red;
+    order: 0;
+    flex: 1 2 300px;
+}
+
+
+.flex-item:nth-child(2){
+    background-color: rgb(151, 0, 221);
+    order: 0;
+    flex-grow: 4;
+    flex-shrink: 1;
+    flex-basis: 400px;
+}
+
+.flex-item:nth-child(3){
+    background-color: rgb(0, 134, 85);
+    order: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
