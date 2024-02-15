@@ -1,0 +1,38 @@
+#intro{
+
+
+    .card{
+        border: 1px solid #ccc;
+        width: 300px;
+        font-family:sans-serif;
+    
+        &__body{
+            padding: 12px;
+    
+            &--title{
+                font-size: 20px;
+                font-weight: 600;
+                margin-bottom: 10px;
+            }
+    
+            &--description{
+                font-size: 12px;
+                margin-bottom: 20px;
+            }
+    
+            &--btn-success{
+                background-color: limegreen;
+                 padding: 6px 12px;
+            }
+    
+            &--btn-danger{
+                background-color: rgb(166, 17, 52);
+                 padding: 6px 12px;
+            }
+    
+        }
+    }
+
+
+    
+}
