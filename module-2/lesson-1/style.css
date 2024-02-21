@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+
+video, iframe{
+    width: 1200px;
+    margin-top: 50px;
+    border-radius: 20px;
+    border: 2px solid black;
+    height: 600px;
+}
+
+audio{
+    background-color:lightskyblue;
+    margin: 120px 0;
+}
+
+
+input{
+    padding: 6px 20px;
+    width: 300px;
+    margin: 8px 0;
+    border-radius: 4px;
+    display: block;
+}
+
+button{
+    background-color: teal;
+    padding: 6px 20px;
+    border-radius: 4px;
+    display: block;
+    margin: 12px 0;
+    color:#fff;
+}
+
+.gender{
+    display: flex;
+    margin: 12px 0;
+}
+
+
+
+table{
+    max-width: 1200px;
+    margin: 50px auto;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+thead{
+    background-color:yellowgreen !important;
+}
+
+tr{
+    height: 40px;
+}
+
+th , td{
+    padding: 10px 20px;
+}
+
+thead tr:first-child{
+    background-color: yellowgreen !important;
+}
+
+tr:nth-child(2n+1){
+    background-color: rgba(231, 248, 255, 0.826);
+    cursor: pointer;
+}
+
+tbody tr:hover{
+    background-color: rgba(0, 0, 0, 0.489);
+}

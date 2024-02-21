@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="https://echo.htmlacademy.ru" method="POST">
+        <label for="full_name">
+          <!-- <p>Ismingzini yozing</p> -->
+          <input
+            placeholder="Ismingzini yozing"
+            type="text"
+            id="full_name"
+            minlength="3"
+            maxlength="20"
+            required
+            name="full_name"
+          />
+        </label>
+
+        <label for="link">
+          <!-- <p>Loyiha manzilini kiriting</p> -->
+          <input
+            placeholder="Loyiha manzilini kiriting"
+            type="text"
+            id="link"
+            minlength="12"
+            maxlength="50"
+            required
+            name="project_link"
+          />
+        </label>
+
+        <label for="tel">
+          <!-- <p>TEL raqamni kiriting</p> -->
+          <input
+            placeholder="telefon raqamingzini kiriting"
+            type="tel"
+            id="tel"
+            minlength="7"
+            maxlength="11"
+            required
+            name="phone_number"
+          />
+        </label>
+
+        <label for="parol">
+          <!-- <p>Parolni kiriting</p> -->
+          <input
+            placeholder="parolni kiriting"
+            type="password"
+            id="parol"
+            minlength="8"
+            maxlength="24"
+            required
+            name="password"
+          />
+        </label>
+
+        <p>Jinsni tanlang</p>
+
+        <label for="man" class="gender">
+          <span>Erkak</span>
+          <input type="radio" id="man" name="gender" />
+        </label>
+
+        <label for="woman" class="gender">
+          <span>Ayol</span>
+          <input type="radio" id="woman" name="gender" />
+        </label>
+        <p>shartlarga rozimisiz ?</p>
+        <input type="checkbox" name="isConfirm" />
+
+        <button type="submit">YUBORISH</button>
+      </form>
+    </div>
+  </body>
+</html>
