@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.box{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #ccc;
+    background-color: crimson;
+    position: absolute;
+
+    animation-name: boxAnimate;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+    animation-direction: alternate;
+    animation-play-state: paused;
+
+}
+
+.box:hover{
+    animation-play-state: running;
+}
+
+
+
+@keyframes boxAnimate{
+
+    from{
+        width: 300px;
+        height: 300px;
+        border: 1px solid #ccc;
+        background-color: crimson;
+        top:0;
+        left: 0;
+    }
+
+    to{
+        width: 300px;
+        height: 300px;
+        border: 1px solid #ccc;
+        background-color: blue;
+        left: 85%;
+        top: 0;
+        border-radius: 50%;
+    }
+
+}

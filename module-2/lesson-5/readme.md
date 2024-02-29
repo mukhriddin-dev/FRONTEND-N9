@@ -24,13 +24,15 @@ git config --global user.email "john@gmail.com"
 ##### Installition Git repository
 
 ```
-git init
+git init -> loyihga gitni o'rnatish
 
-git add "file_name" , "-A" , "."
+git status -> loyiha holatini aniqlaydi
 
-git commit -m "commit message" 
+git add "file_name" , "-A" , "." -> loyihaga fayllarni qo'shish
 
-git branch -m "master or main"
+git commit -m "commit message"   -> loyihani bajarilgan qismi uchun izoh 
+
+git branch -m "master or main"   -> 
 
 git push origin master
 
