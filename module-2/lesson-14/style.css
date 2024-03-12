@@ -1,0 +1,11 @@
+.wrapper{
+    height: 600px;
+    background-color: lime;
+   overflow: hidden;
+   
+}
+
+
+.h-400{
+    height: 400px;
+}
