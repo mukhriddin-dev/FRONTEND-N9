@@ -30,6 +30,9 @@
 - mixin , extend , if else , forEach , operators....
 - Loyihalar
 - toggle menu 
+- Bootstrap
+- Tailwind
+
 
 
 
